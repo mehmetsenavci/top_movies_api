@@ -1,0 +1,24 @@
+{
+  "name": "top_movies_api",
+  "version": "1.0.0",
+  "description": "API that can be use for managing the top 100 movies you enjoy to watch!!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehmetsnvc/top_movies_api.git"
+  },
+  "author": "mehmetsnvc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehmetsnvc/top_movies_api/issues"
+  },
+  "homepage": "https://github.com/mehmetsnvc/top_movies_api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.9"
+  }
+}
