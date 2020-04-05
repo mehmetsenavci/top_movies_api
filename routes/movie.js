@@ -49,7 +49,6 @@ router.put("/:movieId", (req, res) => {
 });
 
 //REMOVE A MOVIE
-
 router.delete("/:movieId", (req, res) => {
   db.Movie.remove({ _id: req.params.movieId })
     .then(() => {
